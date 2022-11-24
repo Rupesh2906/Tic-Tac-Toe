@@ -40,11 +40,9 @@ if __name__=="__main__":
     zstate=[0, 0, 0, 0, 0, 0, 0, 0, 0]
     turn=1
     print("Welcome to Tic-Tac-Toe")
-    print("Game started Lets Play")
-    print()
+    print("X's Chance")
     while(True):
         print_board(xstate,zstate)
-        print()
         if(turn == 1):
             print("X's chance")
             value=int(input("Please enter a value : "))
